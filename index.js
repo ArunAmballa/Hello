@@ -3,7 +3,7 @@ const app=express()
 
 
 app.get("/",(req,res)=>{
-    res.json({message:"Hello Welcome to EC2"})
+    res.json({message:"Hello Welcome to EC2 server 2"})
 })
 app.listen(3000,()=>{
     console.log(`Server is Listening on Port 3000`)
